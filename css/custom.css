@@ -1,0 +1,31 @@
+.container{
+	margin-top:50px;
+}
+.row h3{
+	margin-top:0px;
+	margin-bottom:0px;
+	
+}
+hr{
+	border:1px solid #e5e5e5;
+}
+@media (min-width: 900px){
+	.container{
+		max-width:880px;
+	}
+	.set-right{
+		text-align:right;
+	}
+}
+@media (max-width: 780px){
+	.row h3{
+		text-align:center;
+	}
+	.menubar{
+		text-align:center;
+		margin-top:5px;
+	}
+}
+.non-resize{
+	resize:none;
+}
